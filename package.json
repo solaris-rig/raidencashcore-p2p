@@ -1,0 +1,37 @@
+{
+  "name": "raidencashcore-p2p",
+  "version": "1.9.0",
+  "description": "Interface to the dash P2P network for RaidenCash",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "raidencashcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solaris-rig/raidencashcore-p2p.git"
+  },
+  "dependencies": {
+    "raidencashcore-lib": "^1.8.2",
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "raidencashcore-build": "^1.7.8",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^4.0.0",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
